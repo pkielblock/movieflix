@@ -7,6 +7,7 @@ import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public class CategoryMapper {
+    //Request -> Entity -> Response
 
     public static Category toCategory(CategoryRequest categoryRequest) {
         return Category

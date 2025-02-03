@@ -7,6 +7,7 @@ import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public class StreamingMapper {
+    //Request -> Entity -> Response
 
     public static Streaming toStreaming (StreamingRequest streamingRequest) {
         return Streaming
